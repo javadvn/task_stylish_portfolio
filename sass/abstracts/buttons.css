@@ -1,0 +1,14 @@
+.button-sample {
+  border-radius: 6px;
+  border-color: transparent;
+  background-color: rgb(29, 128, 159);
+  border-width: 1px;
+  border-style: solid;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  padding: 20px 40px;
+  color: white;
+  cursor: pointer;
+}/*# sourceMappingURL=buttons.css.map */

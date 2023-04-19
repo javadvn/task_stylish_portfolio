@@ -1,0 +1,55 @@
+@import "./mixin"; 
+
+.button-sample{
+  border-radius: 6px;
+  border-color: transparent;
+  background-color: rgb(29, 128, 159);
+  border-width: 1px;
+  border-style: solid;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  padding: 20px 40px;
+  color: white;
+  cursor: pointer;
+}
+
+.icon-sample {
+  @include flexCenter();
+    font-size: 36px;
+    width: 112px;
+    height: 112px;
+    border-radius: 50%;
+    background-color: white;
+    color: $textColorBlue;
+    margin-bottom: 16px;
+}
+
+.icon-h-sample{
+    color: white;
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 28.8px;
+}
+
+.icon-p-sample{
+  color: rgba(255, 255, 255, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+}
+
+
+.icon-menu-button{
+  @include flexCenter();
+  height: 50px;
+  width: 50px;
+  background-color: rgba(52, 58, 64, 0.5);
+  border-radius: 6px;
+  position: fixed;
+  right: 15px;
+  color: white;
+  transition: opacity 0.15s;
+}
